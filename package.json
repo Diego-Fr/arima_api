@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Diego-Fr/arima_api/issues"
   },
-  "homepage": "https://github.com/Diego-Fr/arima_api#readme"
+  "homepage": "https://github.com/Diego-Fr/arima_api#readme",
+  "dependencies": {
+    "arima": "^0.2.5",
+    "express": "^4.19.2"
+  }
 }
