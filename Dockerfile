@@ -12,6 +12,8 @@ RUN npm install
 # Copie todo o código-fonte para o diretório de trabalho
 COPY . .
 
+WORKDIR /app/app
+
 # Expõe a porta 3000 para o mundo exterior
 EXPOSE 8999
 

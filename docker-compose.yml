@@ -1,6 +1,7 @@
 services:
   app:
-    build: ./app
+    build: 
+      context: .
     ports:
       - "8999:8999"
     command: node index.js
